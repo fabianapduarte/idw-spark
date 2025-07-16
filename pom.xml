@@ -71,7 +71,7 @@
                             </filters>
                             <transformers>
                                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                    <mainClass>br.ufrn.idw.IdwSpark</mainClass> <!-- Altere se sua main estiver em outro lugar -->
+                                    <mainClass>br.ufrn.idw.Application</mainClass> <!-- Altere se sua main estiver em outro lugar -->
                                 </transformer>
                             </transformers>
                         </configuration>
